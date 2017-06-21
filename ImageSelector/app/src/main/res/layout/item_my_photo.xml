@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/iv_first_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/pictures_no"/>
+
+    <TextView
+        android:id="@+id/tv_photo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="相机胶卷"/>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="(121)"
+        android:textSize="20sp"
+        android:layout_weight="3"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:id="@+id/tv_photo_num" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/right_arrow"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"/>
+
+
+
+</LinearLayout>
